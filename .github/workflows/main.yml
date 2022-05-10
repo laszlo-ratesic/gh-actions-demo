@@ -2,10 +2,10 @@
 name: lint workflow
 # Trigger workflow on all pr
 on:
-  pull_request:
-  branches:
-    - develop
-    - main
+    pull_request:
+        branches:
+          - develop
+          - main
 # Jobs to carry out
 jobs:
   test:
